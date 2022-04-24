@@ -1,0 +1,6 @@
+framework module Pods_CatchStream {
+  umbrella header "Pods-CatchStream-umbrella.h"
+
+  export *
+  module * { export * }
+}
