@@ -30,11 +30,8 @@ class HomeViewController: UIViewController {
         
         let headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
         homeFeedTable.tableHeaderView = headerView
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        homeFeedTable.frame = view.bounds
+        
+        getTrendingMovies()
     }
     
     private func configureNavbar() {
@@ -48,6 +45,24 @@ class HomeViewController: UIViewController {
         ]
         
         navigationController?.navigationBar.tintColor = .white
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        homeFeedTable.frame = view.bounds
+    }
+    
+    private func getTrendingMovies() {
+        APICaller.shared.getTrendingMovies { results in
+            switch results {
+                
+            case .success(let movies):
+                print(movies)
+            case .failure(let error):
+                print(error)
+            }
+            
+        }
     }
 }
 
