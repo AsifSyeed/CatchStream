@@ -22,6 +22,7 @@
 		C331ED262835F2020042C683 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C331ED252835F2020042C683 /* APICaller.swift */; };
 		C331ED282835F66C0042C683 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C331ED272835F66C0042C683 /* Movie.swift */; };
 		C36060EA28166262005D960F /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36060E928166262005D960F /* HeroHeaderUIView.swift */; };
+		C3FFF41B2837678D0070152C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FFF41A2837678D0070152C /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		C331ED252835F2020042C683 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		C331ED272835F66C0042C683 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		C36060E928166262005D960F /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		C3FFF41A2837678D0070152C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		FF480E5AF3516BB34BCA4FBE /* Pods-CatchStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchStream.debug.xcconfig"; path = "Target Support Files/Pods-CatchStream/Pods-CatchStream.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +144,7 @@
 		C31A7E0D281553F40086A644 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C3FFF41A2837678D0070152C /* Extension.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				C31A7DEF28150B4E0086A644 /* MainTabBarViewController.swift in Sources */,
 				C31A7E10281554390086A644 /* CollectionViewTableViewCell.swift in Sources */,
 				C31A7DEB28150B4E0086A644 /* AppDelegate.swift in Sources */,
+				C3FFF41B2837678D0070152C /* Extension.swift in Sources */,
 				C331ED262835F2020042C683 /* APICaller.swift in Sources */,
 				C31A7DED28150B4E0086A644 /* SceneDelegate.swift in Sources */,
 				C31A7DF528150B4E0086A644 /* CatchStream.xcdatamodeld in Sources */,
