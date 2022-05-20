@@ -1,2 +1,2 @@
 # CatchStream
-A video streaming app made with Swift following MVVM architecture
+A movie, TV series streaming app made with Swift following MVVM architecture (learning purpose)
