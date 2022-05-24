@@ -21,6 +21,7 @@
 		C31A7E10281554390086A644 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A7E0F281554390086A644 /* CollectionViewTableViewCell.swift */; };
 		C331ED262835F2020042C683 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C331ED252835F2020042C683 /* APICaller.swift */; };
 		C331ED282835F66C0042C683 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = C331ED272835F66C0042C683 /* Title.swift */; };
+		C3601374283C90B900A1A21A /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3601373283C90B900A1A21A /* SearchResultsViewController.swift */; };
 		C36060EA28166262005D960F /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36060E928166262005D960F /* HeroHeaderUIView.swift */; };
 		C3C2F917283B3CCA0060A40E /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C2F916283B3CCA0060A40E /* TitleTableViewCell.swift */; };
 		C3C2F919283B474B0060A40E /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C2F918283B474B0060A40E /* TitleViewModel.swift */; };
@@ -48,6 +49,7 @@
 		C31A7E0F281554390086A644 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		C331ED252835F2020042C683 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		C331ED272835F66C0042C683 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		C3601373283C90B900A1A21A /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		C36060E928166262005D960F /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		C3C2F916283B3CCA0060A40E /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		C3C2F918283B474B0060A40E /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
@@ -119,10 +121,8 @@
 		C31A7E012815196A0086A644 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C31A7E022815198E0086A644 /* HomeViewController.swift */,
-				C31A7E04281519B90086A644 /* UpcomingViewController.swift */,
-				C31A7E06281519E80086A644 /* SearchViewController.swift */,
-				C31A7E0828151A110086A644 /* DownloadsViewController.swift */,
+				C3601372283C90A800A1A21A /* General */,
+				C3601371283C901F00A1A21A /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -167,6 +167,25 @@
 				C331ED252835F2020042C683 /* APICaller.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		C3601371283C901F00A1A21A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C31A7E022815198E0086A644 /* HomeViewController.swift */,
+				C31A7E04281519B90086A644 /* UpcomingViewController.swift */,
+				C31A7E06281519E80086A644 /* SearchViewController.swift */,
+				C31A7E0828151A110086A644 /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C3601372283C90A800A1A21A /* General */ = {
+			isa = PBXGroup;
+			children = (
+				C3601373283C90B900A1A21A /* SearchResultsViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 		C3F8FBE42839EE800039B446 /* Custom Cells */ = {
@@ -291,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31A7E05281519B90086A644 /* UpcomingViewController.swift in Sources */,
+				C3601374283C90B900A1A21A /* SearchResultsViewController.swift in Sources */,
 				C36060EA28166262005D960F /* HeroHeaderUIView.swift in Sources */,
 				C331ED282835F66C0042C683 /* Title.swift in Sources */,
 				C31A7E07281519E80086A644 /* SearchViewController.swift in Sources */,
