@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872B0048283F56C900C7A4A3 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B0047283F56C900C7A4A3 /* YoutubeSearchResponse.swift */; };
 		8A9DA06DD69395EB31C2BB8B /* Pods_CatchStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D063F4AA4BE13C8084FCFF /* Pods_CatchStream.framework */; };
 		C31A7DEB28150B4E0086A644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A7DEA28150B4E0086A644 /* AppDelegate.swift */; };
 		C31A7DED28150B4E0086A644 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A7DEC28150B4E0086A644 /* SceneDelegate.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		0CD612CF0AED0EBAF9E712A0 /* Pods-CatchStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchStream.release.xcconfig"; path = "Target Support Files/Pods-CatchStream/Pods-CatchStream.release.xcconfig"; sourceTree = "<group>"; };
 		12D063F4AA4BE13C8084FCFF /* Pods_CatchStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatchStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		872B0047283F56C900C7A4A3 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		C31A7DE728150B4E0086A644 /* CatchStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31A7DEA28150B4E0086A644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C31A7DEC28150B4E0086A644 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				C331ED272835F66C0042C683 /* Title.swift */,
+				872B0047283F56C900C7A4A3 /* YoutubeSearchResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				C31A7E10281554390086A644 /* CollectionViewTableViewCell.swift in Sources */,
 				C31A7DEB28150B4E0086A644 /* AppDelegate.swift in Sources */,
 				C3C2F917283B3CCA0060A40E /* TitleTableViewCell.swift in Sources */,
+				872B0048283F56C900C7A4A3 /* YoutubeSearchResponse.swift in Sources */,
 				C3FFF41B2837678D0070152C /* Extension.swift in Sources */,
 				C331ED262835F2020042C683 /* APICaller.swift in Sources */,
 				C3C2F919283B474B0060A40E /* TitleViewModel.swift in Sources */,
